@@ -1,16 +1,19 @@
 .App {
   text-align: center;
+  width: 70%;
+  margin-left: 15%;
+  border: 5px solid blue;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  color: rgb(76, 198, 235);
+  font-weight: 900;
+  background-color: rgb(36, 48, 48);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3 {
+  color: rgb(76, 198, 235);
+  font-weight: 900;
 }
 
 .App-header {
@@ -26,6 +29,11 @@
 
 .App-link {
   color: #61dafb;
+}
+
+#card-container {
+  margin-top: 2%;
+  border: 15px solid rgb(117, 71, 71);
 }
 
 @keyframes App-logo-spin {
