@@ -12,6 +12,14 @@ code {
     monospace;
 }
 
-.table {
-  display: flex;
+table tr td {
+  background-color: rgb(154, 189, 156);
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
 }
+
+#player-score {
+  color: rgb(59, 139, 139);
+}
+

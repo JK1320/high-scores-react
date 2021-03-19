@@ -4,11 +4,11 @@ import React from 'react';
 const NameScores = (props) => {
     return (
         
-            <table className="table text-center bg-success">
+            <table className="table">
             <tbody>
               <tr>
                    <td>{props.n}</td>
-                   <td>{props.s}</td>
+                   <td id="player-score">{props.s}</td>
               </tr>
             </tbody>
        

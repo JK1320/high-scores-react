@@ -19,7 +19,7 @@ function App() {
       <h1>High Scores per Country</h1>
       
         {allCountryScores.map((item, index) => (
-          <div key={index}>
+          <div id="card-container" key={index}>
             <NameCountry name={item.name}/>
             {item.scores.sort((a, b) => {
                if(a.s > b.s){

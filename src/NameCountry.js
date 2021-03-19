@@ -1,14 +1,14 @@
-import React from 'react'
+import React from 'react';
 
 
 const NameCountry = props => {
     return (
        
-             <h3>{props.name}</h3>
+             <h3>High Scores: {props.name}</h3>
        
     )
 }
 
 
 
-export default NameCountry
+export default NameCountry;
